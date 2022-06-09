@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main-transparent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(3px);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.bg{
+background-image: url('../image/background.png');
+  width: 1000px;
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+.bg-text{
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 60px 0 ;  
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  color: #0C3855;
+}
+.bg-text h1{
+    font-size: 50px;
+    font-weight: bold;
+}   
+.header-box{
+ display: flex;
+    gap: 10px;
+}
+.header-box img{
+    margin:-20px -90px 0 0 ;
+    height: 140px;
+    
+}
+.sucess p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+.description p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+.description span{
+    margin-left: 20px;
+}
+.found-box{
+    display: flex;
+   gap: 40px;
+}
+.found-box img{
+    width: 250px;
+    margin-top: -50px;
+}
+.founder{
+    margin: 16px 0 5px 0;
+    font-size: 20px;
+}
+.found-box-one{
+    text-align: center;
+}
+.found-box-two{
+    text-align: center;
+}
+@media screen and (max-width:950px){
+  .main-transparent{
+      width: 100%;
+      height: 100%;
+      justify-content: center;
+      align-items: center;
+  }
+  .bg{
+      width: 800px;
+      height: 600px;
+      background-size: cover;
+      background-position: center;
+  }
+  .bg-text h1{
+    font-size: 50px;
+    font-weight: bold;
+}  
+.found-box img{
+    width: 200px;
+    margin-top: -50px;
+}
+.found-box-item{
+    margin-bottom: -10px;
+}
+.found-box-one h2,.found-box-two h2{
+    font-size: 22px;
+    margin-bottom: -5px;
+} 
+}
+
+  @media screen and (max-width:790px){
+    .main-transparent{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg{
+        width: 600px;
+        height: 400px;
+        background-size: cover;
+        background-position: center;
+        padding: 0 0 0 0 ;  
+    }
+    .bg-text{
+        padding: 50px 0 30px 0 ;  
+    }
+    .bg-text h1{
+      font-size: 35px;
+      font-weight: bold;
+  }  
+  .header-box img{
+    margin:-20px -70px 0 0 ;
+    height: 100px;
+    
+}
+.sucess p{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+.found-box img{
+    width: 110px;
+    margin-top: -20px;
+}
+.description p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+.found-box-one,.found-box-two{
+    margin-bottom: -17px;
+}
+.found-box-one h2,.found-box-two h2{
+    font-size: 16px;
+    
+}
+.found-box-one p,.found-box-two p{
+    font-size: 14px;
+  
+}
+.found-box-item{
+   margin-bottom: 4px;
+}
+
+
+  }
+  /* @media screen and (max-width:704px){
+    .main-transparent{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg{
+        width: 700px;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        padding: 0 0 0 0 ;  
+    }
+    .bg-text{
+        padding: 80px 0 30px 0 ;  
+    }
+    .bg-text h1{
+      font-size: 35px;
+      font-weight: bold;
+  }  
+  .header-box img{
+    margin:-20px -70px 0 0 ;
+    height: 100px;
+    
+}
+.sucess p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+.found-box img{
+    width: 150px;
+    margin-top: -50px;
+}
+.description p{
+    font-size: 19px;
+    font-weight: bold;
+    margin-top: -60px;
+}
+.found-box-one h2,.found-box-two h2{
+    font-size: 17px;
+}
+.found-box-one p,.found-box-two p{
+    font-size: 15px;
+  
+}
+.found-box-item{
+   margin-bottom: 5px;
+} */
+
+
+  
+  @media screen and (max-width:590px){
+    .main-transparent{
+        width: 100%;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .bg{
+        width: 450px;
+        height: 320px;
+        background-size: cover;
+        background-position: center;
+        padding: 0 0 0 0 ;  
+    }
+    .bg-text{
+        padding: 40px 0 30px 0 ;  
+    }
+    .bg-text h1{
+      font-size: 28px;
+      font-weight: bold;
+  }  
+  .header-box img{
+    margin:-10px -50px 0 0 ;
+    height: 70px;
+    
+}
+.sucess p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: -40px;
+}
+.found-box img{
+    width: 80px;
+    margin-top: -10px;
+}
+.description p{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: -20px;
+}
+.found-box{
+    
+   gap: 20px;
+}
+.found-box-one h2,.found-box-two h2{
+    margin-bottom: -5px;
+    font-size: 15px;
+}
+.found-box-one p,.found-box-two p{
+    font-size: 12px;
+  
+}
+.found-box-item{
+   margin-bottom: 0;
+}
+
+
+  }
+
