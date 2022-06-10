@@ -1,3 +1,8 @@
+@font-face {
+    font-family:'Somatic-Rounded';
+    src: url(../font/Somatic-Rounded.otf);
+}
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -34,6 +39,7 @@ background-image: url('../image/background.png');
 .bg-text h1{
     font-size: 50px;
     font-weight: bold;
+    font-family: 'Somatic-Rounded',sans-serif;
 }   
 .header-box{
  display: flex;
@@ -48,11 +54,13 @@ background-image: url('../image/background.png');
     font-size: 30px;
     font-weight: bold;
     margin-top: -60px;
+    font-family: 'Somatic-Rounded',sans-serif;
 }
 .description p{
     font-size: 23px;
     font-weight: bold;
     margin-top: -60px;
+    font-family: 'Somatic-Rounded',sans-serif;
 }
 .description span{
     margin-left: 20px;
@@ -60,6 +68,10 @@ background-image: url('../image/background.png');
 .found-box{
     display: flex;
    gap: 40px;
+}
+.found-box h2,.found-box p{
+    font-family: 'Somatic-Rounded',sans-serif;
+    font-weight: 300;
 }
 .found-box img{
     width: 250px;
@@ -239,7 +251,6 @@ background-image: url('../image/background.png');
   .header-box img{
     margin:-10px -50px 0 0 ;
     height: 70px;
-    
 }
 .sucess p{
     font-size: 18px;
@@ -256,7 +267,6 @@ background-image: url('../image/background.png');
     margin-top: -20px;
 }
 .found-box{
-    
    gap: 20px;
 }
 .found-box-one h2,.found-box-two h2{
